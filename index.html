@@ -2,63 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Заголовок</title>
+    <title>Мои любимые блюда</title>
+    <style>
+        body {
+            background-image: url('images/background.jpg');
+            background-size: cover; /* Обеспечивает покрытие всей области фона */
+            background-repeat: no-repeat; /* Предотвращает повторение изображения */
+            background-position: center; /* Центрирует изображение на странице */
+        }
+    </style>
 </head>
 <body>
 
-    <h1>1 уровень</h1>
-    <h2>2 уровень</h2>
-    <h3>3 уровень</h3>
-    <h4>4 уровень</h4>
-    <h5>5 уровень</h5>
-    <h6>6 уровень</h6>
+    <table bgcolor="burlywood" align="center" border="2px" height="400px" width="800px">
+        <tr>
+            <th>Название блюда</th>
+            <th>Моя оценка</th>
+            <th>Ссылка на рецепт</th>
+            <th>Изображение</th>
+        </tr>
 
-    <p>Это простой блочный текст.</p><p>Это простой блочный текст.</p>
+        <tr align="center">
+            <td>Спагетти</td>
+            <td>4.2/5</td>
+            <td><a href="https://www.gastronom.ru/recipe/22114/spagetti-boloneze" target="_blank" >Ссылка на рецепт</a></td>
+            <td><img src="images/spaghetti.jpg" width="150px" height="100px" alt="Спагетти"></td>
+        </tr>
 
-    <span>Текст строчный</span>
-    <span>Текст строчный</span>
-    <span>Текст строчный</span>
+        <tr align="center">
+            <td>Пицца</td>
+            <td>4.9/5</td>
+            <td><a href="https://eda.ru/recepty/pasta-picca/picca-margarita-v-duhovke-151599" target="_blank" >Ссылка на рецепт</a></td>
+            <td><img src="images/pizza.jpg" width="150px" height="110px" alt="Пицца"></td>
+        </tr>
 
-    <p>Это текст</p>
-    <hr>
-    <p>Это тоже текст</p>
+        <tr align="center">
+            <td>Суп-пюре из шампиньонов</td>
+            <td>4.4/5</td>
+            <td><a href="https://povar.ru/recipes/gribnoi_sup-piure_iz_shampinonov-10834.html" target="_blank" >Ссылка на рецепт</a></td>
+            <td><img src="images/cream-soup.jpg" width="150px" height="110px" alt="Суп-пюре из шампиньонов"></td>
+        </tr>
 
-    <p>У нас открылся магазин с <br> продукцией азиатских стран</p>
+        <tr align="center">
+            <td>Паэлья с дарами моря</td>
+            <td>4.6/5</td>
+            <td><a href="https://eda.ru/recepty/osnovnye-blyuda/pajelja-s-moreproduktami-40073" target="_blank">Ссылка на рецепт</a></td>
+            <td><img src="images/paella.jpg" width="150px" height="110px" alt="Паэлья с морепродуктами"></td>
+        </tr>
 
-    <a href="https://doka.guide/html/" target="_blank" >Этот текст является ссылкой</a>
+        <tr align="center">
+            <td>Тирамису</td>
+            <td>4.7/5</td>
+            <td><a href="https://1000.menu/cooking/16344-tiramisu-bez-yaic" target="_blank" >Ссылка на рецепт</a></td>
+            <td><img src="images/tiramisu.jpg" width="150px" height="110px" alt="Тирамису"></td>
+        </tr>
 
-    <img src="Укажите путь к изображению" width="300px" height="100px" alt="изображение"
-         title="это изображение при наведении мышкой">
-
-    <video src="Укажите путь к видео" width="500px" height="400px" controls loop></video>
-
-    <audio src="Укажите путь к звуку" controls></audio>
-
-    <ul>
-        <li>Техника
-            <ul>
-                <li>Бренды</li>
-                <li>Комплектующие</li>
-                <li>Технические особенности</li>
-            </ul>
-
-        </li>
-        <li>Продукты
-            <ul>
-                <li>Хлеб</li>
-                <li>Молоко</li>
-            </ul>
-
-        </li>
-        <li>Одежда</li>
-
-    </ul>
-
-    <ol>
-        <li>Первый пункт</li>
-        <li>Второй пункт</li>
-        <li>Третий пункт</li>
-    </ol>
+    </table>
 
 </body>
 </html>
