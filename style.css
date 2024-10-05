@@ -1,9 +1,19 @@
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Распределяет карточки с равными промежутками */
+    align-items: flex-start; /* Выравнивает карточки по верху */
+    height: 100vh; /* Убедитесь, что контейнер занимает всю высоту экрана */
+    box-sizing: border-box; /* Чтобы отступы и границы учитывались в размере */
+}
+
 .card {
-    width: 400px;
-    height: 700px;
+    width: 200px;
+    height: 200px;
     background-color: #FFE4B5;
+    margin: 10px;
     border-radius: 60px;
-    transition: background-color 1s;
+    overflow: hidden;
+    transition: 1s;
 }
 
 #card1:hover{
@@ -51,6 +61,13 @@
 .info{
     height: 40%;
     margin: 20px;
+    font-size: 5px;
+}
+
+.info:hover{
+    height: 40%;
+    margin: 20px;
+    font-size: 20px;
 }
 
 img{
