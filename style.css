@@ -2,15 +2,17 @@
     display: flex;
     justify-content: space-around; /* Распределяет карточки с равными промежутками */
     align-items: flex-start; /* Выравнивает карточки по верху */
-    height: 100vh; /* Убедитесь, что контейнер занимает всю высоту экрана */
+    height: 100vh; /* Контейнер занимает всю высоту экрана */
     box-sizing: border-box; /* Чтобы отступы и границы учитывались в размере */
 }
 
 .card {
     width: 200px;
     height: 200px;
-    background-color: #FFE4B5;
+    background-color: #00008B;
     margin: 10px;
+    border-color: #FFD700;
+    border-style: solid;
     border-radius: 60px;
     overflow: hidden;
     transition: 1s;
