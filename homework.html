@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Звёздные войны</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Звёздные войны</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#section1">Раздел 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#section2">Раздел 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#section3">Раздел 3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#footer">Футер</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Основное содержимое страницы -->
+    <main class="container mt-4">
+        <h1>Добро пожаловать на наш сайт!</h1>
+        <p>Здесь будет основное содержимое страницы.</p>
+    </main>
+
+    <!-- Раздел 1 -->
+    <div id="section1" style="padding: 100px; background-color: #f8f9fa;">
+        <h2>Раздел 1</h2>
+        <p>Добавьте ваш код для Раздела 1 здесь.</p>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 30rem" >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="star-wars/Anakin.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="star-wars/Obi_Wan.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="star-wars/Ahsoka.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+    </div>
+
+    <!-- Раздел 2 -->
+    <div id="section2" style="padding: 100px; background-color: #e9ecef;">
+        <h2>Раздел 2</h2>
+        <p>Добавьте ваш код для Раздела 2 здесь.</p>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Энакин Скайуокер
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Также известный под именем <strong>Дарт Вейдер.</strong>
+                Центральный персонаж первых шести эпизодов саги «Звёздные войны». Также появляется в фильме «Изгой-один».
+                В киноэпопее «Звёздные войны» демонстрируются его становление в качестве рыцаря-джедая, его переход
+                на Тёмную сторону Силы и его итоговое искупление. Отец <strong>Люка Скайуокера</strong> и <strong>Леи Органы.</strong>
+                Единственный персонаж, появляющийся в 6 эпизодах и спин-оффе «Изгой-один» «во плоти»
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Оби-Ван Кеноби
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Персонаж вселенной «Звёздные войны.
+                Впервые <strong>Кеноби</strong> появляется в оригинальной трилогии и, по-видимому, ведёт отшельнический образ жизни.
+                В то же время он наблюдает за Люком, который живёт на ферме своего дяди.
+                Выясняется, что он — рыцарь-джедай, а затем он обучает <strong>Люка Скайуокера</strong> джедайскому искусству.
+                В I—III эпизодах он появляется как молодой джедай, который из ученика перевоплощается в учителя и обучает молодого <strong>Энакина Скайуокера.</strong>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Асока Тано
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Персонаж вселенной «Звёздные войны. Впервые представленная в качестве джедая-падавана <strong>Энакина Скайуокера,</strong>
+                она появляется в полнометражном мультфильме 2008 года «Звездные войны: Войны клонов» и последующем телесериале.
+                Асока вновь появляется в телесериале «Звездные войны: Повстанцы», где она использует кодовое имя «Fulcrum»,
+                и в качестве закадрового голоса в фильме 2019 года «Звездные войны: Скайуокер. Восход».
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Раздел 3 -->
+    <div id="section3" style="padding: 100px; background-color: #f8f9fa;">
+        <h2>Раздел 3</h2>
+        <p>Добавьте ваш код для Раздела 3 здесь.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="star-wars/Maul.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Дарт Мол</h5>
+                        <p class="card-text">Бывший ученик <strong>Дарта Сидиуса.</strong> Появляется в фильмах «Звёздные войны. Эпизод I: Скрытая угроза» и в «Хан Соло. Звёздные войны: Истории». В конце первого эпизода Мол был перерублен пополам <strong>Оби-Ваном Кеноби.</strong></p>
+                        <a href="https://ru.wikipedia.org/wiki/%D0%94%D0%B0%D1%80%D1%82_%D0%9C%D0%BE%D0%BB" class="btn btn-primary">Перейти куда-нибудь</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="star-wars/Dooku.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Граф Дуку</h5>
+                        <p class="card-text">Он же <strong>Дарт Тиранус.</strong> Главный антагонист в фильме «Звёздные войны. Эпизод II: Атака клонов» и второстепенный антагонист в фильме «Звёздные войны. Эпизод III: Месть ситхов». Граф Дуку изначально был магистром-джедаем, а затем стал ситхом.</p>
+                        <a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B0%D1%84_%D0%94%D1%83%D0%BA%D1%83" class="btn btn-primary">Перейти куда-нибудь</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="star-wars/Palpatin.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Шив Палпатин</h5>
+                        <p class="card-text">Известный под своим ситхским именем <strong>Дарт Сидиус</strong> — ситх, сенатор и Верховный канцлер Галактической Республики, а позднее Император Галактики, один из главных отрицательных героев во вселенной «Звёздные войны».</p>
+                        <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%BF%D0%B0%D1%82%D0%B8%D0%BD" class="btn btn-primary">Перейти куда-нибудь</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Раздел 4 -->
+    <footer id="footer" style="padding: 50px; background-color: #e9ecef;">
+        <h3>Футер</h3>
+        <p>Добавьте ваш код для футера здесь.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
